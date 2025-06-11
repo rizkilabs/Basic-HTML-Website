@@ -21,7 +21,20 @@
 
     <main>
         <h1>Hubungi Saya</h1>
-        <p>Bisa kirim email ke: rizkilabs.dev@gmail.com</p>
+
+        <form action="#" method="post">
+            <label for="nama">Nama:</label><br />
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required /><br /><br />
+
+            <label for="email">Email:</label><br />
+            <input type="email" id="email" name="email" placeholder="Masukkan email kamu" required /><br /><br />
+
+            <label for="pesan">Pesan:</label><br />
+            <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan kamu di sini..."
+                required></textarea><br /><br />
+
+            <button type="submit">Kirim</button>
+        </form>
     </main>
 
     <footer>
