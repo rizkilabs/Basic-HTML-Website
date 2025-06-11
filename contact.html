@@ -1,45 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Judul Halaman</title>
-    <meta name="description" content="Deskripsi singkat tentang halaman ini.">
-    <meta name="keywords" content="HTML, belajar, pemula, website, rizkilabs">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta SEO -->
+    <title>Kontak - Rizki Labs</title>
+    <meta name="description" content="Hubungi Rizki Labs melalui formulir kontak ini.">
+    <meta name="keywords" content="HTML, kontak, form, belajar">
     <meta name="author" content="Mochamad Rizki">
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <header>
-        <nav>
-            <a href="index.html">Beranda</a> |
-            <a href="projects.html">Proyek</a> |
-            <a href="articles.html">Artikel</a> |
-            <a href="contact.html">Kontak</a>
-        </nav>
+        <h1>Kontak Saya</h1>
     </header>
 
+    <!-- NAVIGASI -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="projects.html">Proyek</a></li>
+            <li><a href="articles.html">Artikel</a></li>
+            <li><a href="contact.html">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- KONTEN UTAMA -->
     <main>
-        <h1>Hubungi Saya</h1>
 
-        <form action="#" method="post">
-            <label for="nama">Nama:</label><br />
-            <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required /><br /><br />
+        <!-- SECTION: Form Kontak -->
+        <section>
+            <h2>Hubungi Saya</h2>
 
-            <label for="email">Email:</label><br />
-            <input type="email" id="email" name="email" placeholder="Masukkan email kamu" required /><br /><br />
+            <form action="#" method="post">
+                <!-- Nama -->
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu" required><br><br>
 
-            <label for="pesan">Pesan:</label><br />
-            <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan kamu di sini..."
-                required></textarea><br /><br />
+                <!-- Email -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Masukkan email kamu" required><br><br>
 
-            <button type="submit">Kirim</button>
-        </form>
+                <!-- Pesan -->
+                <label for="pesan">Pesan:</label><br>
+                <textarea id="pesan" name="pesan" rows="5" placeholder="Tulis pesan kamu di sini..."
+                    required></textarea><br><br>
+
+                <!-- Tombol Kirim -->
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
     </main>
 
+    <!-- FOOTER -->
     <footer>
         <p>© 2025 Mochamad Rizki</p>
     </footer>
+
 </body>
 
 </html>
